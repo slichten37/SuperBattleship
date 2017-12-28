@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html> <head>
+<title>SuperBattleship by Slichten</title>
+<script src="http://www.cs.unc.edu/Courses/comp426-f16/jquery-3.1.0.js"></script>
+<script src="SBConstants.js"></script>
+<script src="SuperBattleship.js"></script>
+<script src="HumanPlayer.js"></script>
+<script src="DumbAI.js"></script>
+<script src="SBStartup.js"></script>
+<link rel="stylesheet" type="text/css" href="SuperBattleship.css">
+</head>
+
+<body>
+
+<div id="map_panel">
+  <div id="map_view">
+    <div id="p1_view">P1 View</div>
+    <div id="brag">Created By: Spencer Lichtenberg</div>
+  </div>
+</div>
+
+
+
+<div id="cli_panel">
+	<ul id="game_button_panel">
+		<li id="shoot_button">Shoot</li>
+		<li id="move_forward_button">Move Forward</li>
+		<li id="move_backward_button">Move Backward</li>
+		<li id="rotate_CW_button">Rotate CW</li>
+		<li id="rotate_CCW_button">Rotate CCW</li>
+	</ul>
+  <div id="p1_cli_panel">
+    <table id="turn_table">
+      <tr>
+        <td id="p1" class='yourTurn'>Player 1</td>
+        <td id="p2">Player 2</td>
+        <td id="curr_turn">Turn: 0</td>
+      </tr>
+    </table>
+    <div id="p1_cli_output"></div>
+    <table id="event_table">
+      <tr>
+        <td id="ship_sunk">Ship Sunk</td>
+        <td id="hit">HIT!</td>
+        <td id="miss">Miss</td>
+      </tr>
+  </div>
+</div>
+  
+</body> </html>

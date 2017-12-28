@@ -1,0 +1,209 @@
+#map_panel {
+    width: 60%;
+    float: left;
+}
+
+#map_view {
+    height: 800px;
+}
+
+#cli_panel {
+    width: 40%;
+    height: 500px;
+    float: right;
+    position: relative;
+}
+
+#p1_cli_panel {
+    height: 500px;
+    position: relative;    
+}
+
+#p1_cli_input {
+    width: 100%;
+}
+
+#p1_cli_output {
+    position: relative;
+    height: 60%;
+    overflow: auto;
+}
+
+#game_button_panel {
+    height: 250px;
+
+}
+
+#game_button_panel li {
+    padding: 5px;
+    margin: 10px;
+    font-size: 20pt;
+    text-align: center;
+    border: thin black solid;
+    list-style-type: none;
+    background-color: white;
+}
+
+#map_grid td {
+    border:thin black solid;
+    height: 8px;
+    width: 8px;
+    text-align: center;
+    color: white;
+}
+
+#map_grid td:hover{
+    background-color: red;
+}
+
+#map_grid .number td{
+    color: white;
+}
+
+#game_info{
+    border: thin dotted gray;
+    font-size: 16pt;
+    width:60%;
+}
+
+#curr_turn{
+    color: white;
+}
+
+#curr_player{
+    margin-left: 60px;
+}
+
+.miss {
+    height: 10px;
+    width: 10px;
+    font-size: 8pt;
+    padding: 0px;
+    margin: 0px;
+    color: white;
+    font-style: bold;
+    background-color: red;
+}
+
+.p1 {
+    height: 10px;
+    width: 10px;
+    font-size: 8pt;
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    font-style: bold;
+    background-color: #aaaaff;
+}
+
+.p2 {
+    height: 10px;
+    width: 10px;
+    font-size: 8pt;
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    font-style: bold;
+    background-color: yellow;
+}
+
+.empty {
+    height: 10px;
+    width: 10px;
+    font-size: 8pt;
+    padding: 0px;
+    margin: 0px;
+    color: black;
+    font-style: bold;
+    background-color: #0000a0;
+}
+
+.invis {
+    height: 10px;
+    width: 10px;
+    padding: 0px;
+    margin: 0px;
+    font-size: 8pt;
+    color: black;
+    font-style: bold;
+    background-color: #000040;
+    border:none
+}
+
+.miss:hover {
+    background color: white;
+}
+
+.p1:hover {
+    background-color: white;
+}
+
+.p2:hover {
+    background-color: white;
+}
+
+.empty:hover {
+    background-color: white;
+}
+
+.invis:hover {
+    background-color: white;
+}
+
+.space:hover {
+    background-color: red;
+}
+
+#game_button_panel .buttonClicked {
+    background-color: red;
+}
+
+.moveable {
+    background-color: yellow;
+}
+
+html { 
+  background: url(http://www.cs.unc.edu/Courses/comp426-f16/users/slichten/a2/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#turn_table td {
+    font-size: 16pt;
+    color: lightgrey;
+    padding: 5px;
+    margin: 10px;
+    width: 150px;
+}
+
+#event_table td {
+    font-size: 20pt;
+    color: lightgrey;
+    padding: 5px;
+    margin: 10px;
+    width: 150px;
+}
+
+#turn_table .yourTurn {
+    color: black;
+    font-style: bold;
+}
+
+#event_table .eventFlash {
+    color: red;
+    font-style: bold;
+}
+
+#brag {
+    font-size: 20pt;
+    font-family: sans-serif comic;
+    color: #006600;
+    border-bottom: thick solid darkgreen;
+    width: 360px;
+}
+
+#p1_cli_output {
+    color: white;
+}
